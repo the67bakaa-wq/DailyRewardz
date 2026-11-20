@@ -1,0 +1,14 @@
+name: DailyRewards
+version: 1.0.0
+main: com.lightsmp.dailyrewards.DailyRewardsPlugin
+api-version: '1.21'
+author: LightSMP
+commands:
+  daily:
+    description: Open your daily rewards menu
+    usage: /daily [claim|editor|reload|reset]
+permissions:
+  dailyrewards.use:
+    default: true
+  dailyrewards.admin:
+    default: op

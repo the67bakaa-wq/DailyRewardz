@@ -1,0 +1,58 @@
+settings:
+  cooldown-hours: 24
+  animation-ticks: 60
+  announce-rare-rewards: true
+  rare-announcement-threshold: 5.0
+  full-inventory: DROP
+  menu-title: '&8Daily Rewards'
+  editor-title: '&8Daily Rewards Editor'
+
+# Chances are relative weights. They do not need to total 100; the plugin
+# normalizes them automatically. Current values total 100.
+rewards:
+  golden_apple_6:
+    material: GOLDEN_APPLE
+    amount: 6
+    chance: 30.0
+    enabled: true
+  anvils:
+    material: ANVIL
+    amount: 3
+    chance: 20.0
+    enabled: true
+  diamonds:
+    material: DIAMOND
+    amount: 24
+    chance: 15.0
+    enabled: true
+  shulker_box:
+    material: SHULKER_BOX
+    amount: 1
+    chance: 10.0
+    enabled: true
+  random_enchanted_book:
+    material: ENCHANTED_BOOK
+    amount: 1
+    chance: 8.0
+    enabled: true
+    random-enchantment: true
+  golden_apple_32:
+    material: GOLDEN_APPLE
+    amount: 32
+    chance: 7.0
+    enabled: true
+  ancient_debris:
+    material: ANCIENT_DEBRIS
+    amount: 1
+    chance: 5.0
+    enabled: true
+  enchanted_golden_apple_4:
+    material: ENCHANTED_GOLDEN_APPLE
+    amount: 4
+    chance: 3.0
+    enabled: true
+  totem:
+    material: TOTEM_OF_UNDYING
+    amount: 1
+    chance: 2.0
+    enabled: true
